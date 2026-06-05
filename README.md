@@ -1,11 +1,6 @@
 # AdventureWorks Advanced CRM & Sales Forecasting System
 
 
-[![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-Streamlit-red?logo=streamlit)](https://adventureworks-crm-dashboard.streamlit.app)
-
-Enterprise Business Intelligence & Predictive Machine Learning Framework
-
-
 ## Project Overview
 This project was developed as the final project for the Application Programming course. The system integrates Business Intelligence (BI), Customer Relationship Management (CRM), and Machine Learning techniques to analyze sales performance, customer behavior, and future revenue opportunities using the AdventureWorks Sales dataset.
 
@@ -15,7 +10,11 @@ The application was developed as an interactive web dashboard using Streamlit an
 
 ## Live Demo
 
+[![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-Streamlit-red?logo=streamlit)](https://adventureworks-crm-dashboard.streamlit.app)
+
 🔗 https://adventureworks-crm-dashboard.streamlit.app
+
+Explore the deployed Streamlit application and interact with all dashboard modules in real time.
 
 ---
 
