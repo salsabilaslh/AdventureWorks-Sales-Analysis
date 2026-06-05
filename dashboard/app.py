@@ -109,10 +109,10 @@ div[data-testid="stRadio"] label {
 # =========================
 @st.cache_data
 def load_data():
-    pd.read_csv("../data/clean_adventureworks.csv")
+    df = pd.read_csv("../data/clean_adventureworks.csv")
     df['OrderDateKey'] = pd.to_datetime(df['OrderDateKey'])
     df['YearMonth'] = df['OrderDateKey'].dt.to_period('M').astype(str)
-    
+
     try:
         pred_df = pd.read_csv("../data/sales_prediction.csv")
     except:
@@ -120,9 +120,8 @@ def load_data():
             'Year': [2024, 2025, 2026],
             'Predicted Sales': [12500000, 14800000, 17500000]
         })
-    return df, pred_df
 
-df, prediction_df = load_data()
+    return df, pred_df
 
 # =========================
 # SIDEBAR NAVIGATION & FILTERS
