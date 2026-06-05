@@ -170,9 +170,6 @@ Final Project Spring 2026
 
 Student ID:
 2555047
-
-Machine Learning Model:
-Random Forest
 """)
 
 # =========================
