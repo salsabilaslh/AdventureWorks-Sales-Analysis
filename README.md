@@ -1,17 +1,20 @@
-# AdventureWorks Sales Analysis & AI Prediction Dashboard
+# AdventureWorks Advanced CRM & Sales Forecasting System
 
 ## Project Overview
-This project analyzes sales performance, customer purchasing behavior, and future sales prediction using the AdventureWorks Sales dataset. The project combines data preprocessing, exploratory data analysis (EDA), machine learning, and interactive dashboard visualization using Power BI.
+This project was developed as the final project for the Application Programming course. The system integrates Business Intelligence (BI), Customer Relationship Management (CRM), and Machine Learning techniques to analyze sales performance, customer behavior, and future revenue opportunities using the AdventureWorks Sales dataset.
 
-The main goal of this project is to discover sales trends, identify high-performing products and regions, and provide business insights from a CRM (Customer Relationship Management) perspective.
+The application was developed as an interactive web dashboard using Streamlit and Plotly, providing business users with real-time analytical insights and predictive decision-support tools.
 
 ---
 
 ## Tools Used
 - Python
 - Pandas
-- Matplotlib
+- NumPy
 - Scikit-learn
+- Streamlit
+- Plotly
+- Matplotlib
 - Google Colab
 - Power BI
 
@@ -20,77 +23,135 @@ The main goal of this project is to discover sales trends, identify high-perform
 ## Project Workflow
 
 ### 1. Data Preprocessing
-The raw dataset was cleaned and prepared before analysis by:
-- removing missing values
-- removing duplicate data
-- converting data types
-- preparing a clean dataset for visualization and prediction
+The AdventureWorks dataset was prepared through several preprocessing steps:
+
+- Missing value handling
+- Duplicate removal
+- Data type conversion
+- Feature preparation
+- Dataset cleaning and validation
+
+The resulting dataset was used for both analytical visualization and machine learning modeling.
 
 ---
 
 ### 2. Exploratory Data Analysis (EDA)
-Several analyses were conducted to understand sales and customer behavior, including:
-- monthly sales trends
-- sales by category
-- sales by region
-- sales by country
-- top-selling products
+Business-oriented analysis was performed to identify sales trends and customer purchasing patterns.
 
-The analysis helped identify important business patterns and customer purchasing behavior.
+Key analytical areas include:
+
+- Monthly sales trends
+- Regional sales performance
+- Product category analysis
+- Customer behavior analysis
+- Product portfolio performance
+- Revenue distribution analysis
 
 ---
 
-### 3. Power BI Dashboard
-An interactive Power BI dashboard was created to visualize business performance and sales insights.
+### 3. Interactive Business Intelligence Dashboard
+The system provides a multi-module analytical dashboard.
 
-The dashboard consists of 3 pages:
+#### Executive Overview
+Provides a high-level business summary including:
 
-#### Page 1 — Executive Dashboard
-Displays overall business performance:
 - Total Sales
 - Total Orders
 - Total Products
 - Total Customers
 - Monthly Sales Trend
-- Sales by Region
-- Sales by Category
-
-![Executive Dashboard](images/dashboard_overview.png)
 
 ---
 
-#### Page 2 — Product & Customer Analysis
-Focused on product and regional analysis using interactive filters:
-- Country filter
-- Category filter
-- Top-selling products
-- Sales by country
+#### Customer & Product Analytics
+Provides deeper analysis of customer and product performance:
 
-![Product & Customer Analysis](images/product_analysis.png)
-
----
-
-#### Page 3 — AI Prediction & Insights
-Displays future sales prediction and business recommendations:
-- Future sales prediction
-- Predicted sales KPI
-- Business insights and recommendations
-
-![AI Prediction & Insights](images/ai_prediction.png)
+- Geographical Distribution Matrix
+- Category Revenue Share
+- Top Performing Product Portfolio
+- Customer Portfolio Analysis
+- Customer Value Segmentation
 
 ---
 
-## Machine Learning Prediction
-A simple prediction model was implemented to estimate future sales performance and visualize predicted sales trends.
+#### Customer Segmentation
+Customers are automatically grouped into:
 
-The prediction results were integrated into the Power BI dashboard to support business decision-making and CRM analysis.
+- VIP Customers
+- Regular Customers
+- Low Value Customers
+  
+The segmentation module helps identify customer concentration and supports CRM strategy planning.
 
 ---
 
-## Project Outcome
-This project demonstrates how business intelligence tools and machine learning can be combined to analyze customer behavior, visualize sales performance, and support data-driven business decisions through interactive dashboards and predictive analysis.
+#### Predictive ML Engine
+The predictive module combines machine learning and business simulation techniques.
+
+Features include:
+
+- Sales Growth Forecasting
+- CRM Classification Model
+- Customer Purchase Probability Prediction
+- Revenue Simulation Engine
+- Business Recommendation System
 
 ---
 
-## Academic Project
-This project was developed as a final term project for the Application Programming course, focusing on business intelligence, sales analysis, CRM insights, and AI-based prediction using Python and Power BI.
+#### Machine Learning Models
+
+#### Random Forest Classification
+Used to estimate customer purchasing likelihood based on customer profile attributes.
+
+Outputs:
+
+- Purchase probability score
+- Customer classification
+- CRM recommendations
+
+#### Random Forest Regression
+
+Used to simulate future revenue scenarios by adjusting:
+
+- Inventory allocation
+- Pricing strategy
+- Market growth assumptions
+
+Outputs:
+
+- Revenue forecast
+- Scenario comparison
+- Strategic business insights
+
+---
+
+### Key Business Insights
+
+The system can identify:
+
+- Highest revenue regions
+- Best-performing product categories
+- Top-performing products
+- Customer value distribution
+- Future revenue opportunities
+- CRM optimization strategies
+
+---
+
+### Project Outcome
+
+This project demonstrates how modern Business Intelligence and Machine Learning techniques can be integrated into an interactive web application to support data-driven decision-making.
+
+The final system provides analytical reporting, customer segmentation, predictive forecasting, and strategic business recommendations within a single platform.
+
+---
+
+### Academic Information
+
+This project was submitted as the final project for the Application Programming course and focuses on the integration of:
+
+- Business Intelligence
+- Customer Relationship Management (CRM)
+- Data Analytics
+- Machine Learning
+- Interactive Web Application Development
