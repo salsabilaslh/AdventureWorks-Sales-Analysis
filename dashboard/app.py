@@ -122,6 +122,8 @@ def load_data():
         })
 
     return df, pred_df
+    
+df, prediction_df = load_data()
 
 # =========================
 # SIDEBAR NAVIGATION & FILTERS
