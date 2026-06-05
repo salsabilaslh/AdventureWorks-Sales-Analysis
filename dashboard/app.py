@@ -43,6 +43,10 @@ section[data-testid="stSidebar"] {
     border-right: 1px solid #E2E8F0;
     width: 340px !important;
 }
+section[data-testid="stSidebar"] * {
+    color: #1E293B !important;
+    opacity: 1 !important;
+}
 section[data-testid="stSidebar"] .stWidgetLabel {
     font-size: 18px !important;
     font-weight: 600 !important;
