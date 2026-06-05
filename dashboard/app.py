@@ -17,22 +17,22 @@ st.markdown("""
 
 html, body, [data-testid="stWidgetLabel"], .stMarkdown p {
     font-family: 'Inter', sans-serif;
-    font-size: 20px !important;
+    font-size: 16px !important;
 }
 h1 {
-    font-size: 38px !important;
+    font-size: 30px !important;
     font-weight: 700 !important;
 }
 h2 {
-    font-size: 30px !important;
+    font-size: 24px !important;
     font-weight: 600 !important;
 }
 h3 {
-    font-size: 26px !important;
+    font-size: 20px !important;
     font-weight: 600 !important;
 }
 h4 {
-    font-size: 22px !important;
+    font-size: 18px !important;
     font-weight: 500 !important;
 }
 .stApp {
@@ -41,7 +41,7 @@ h4 {
 section[data-testid="stSidebar"] {
     background-color: #FFFFFF;
     border-right: 1px solid #E2E8F0;
-    width: 340px !important;
+    width: 260px !important;
 }
 section[data-testid="stSidebar"] * {
     color: #1E293B !important;
@@ -60,17 +60,17 @@ div[data-testid="stRadio"] label {
 .metric-box {
     background-color: #FFFFFF;
     border-left: 6px solid #8B1E3F;
-    padding: 26px;
+    padding: 18px;
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 .metric-box b {
-    font-size: 18px !important;
+    font-size: 15px !important;
     color: #64748B;
 }
 .metric-box h2 {
-    font-size: 36px !important;
-    margin-top: 6px !important;
+    font-size: 30px !important;
+    margin-top: 4px !important;
 }
 .crm-card-buy {
     background-color: #F0FDF4;
@@ -213,9 +213,9 @@ if page == "Executive Overview":
     fig_trend.update_layout(
         plot_bgcolor='rgba(0,0,0,0)', 
         paper_bgcolor='rgba(0,0,0,0)',
-        font=dict(size=16, color="#0F172A"),
-        xaxis=dict(title_font=dict(size=18), tickfont=dict(size=15)),
-        yaxis=dict(title_font=dict(size=18), tickfont=dict(size=15))
+        font=dict(size=13, color="#0F172A"),
+        xaxis=dict(title_font=dict(size=14), tickfont=dict(size=12)),
+        yaxis=dict(title_font=dict(size=14), tickfont=dict(size=12))
     )
     st.plotly_chart(fig_trend, use_container_width=True)
 
@@ -233,8 +233,8 @@ elif page == "Customer & Product Analytics":
             plot_bgcolor='rgba(0,0,0,0)', 
             paper_bgcolor='rgba(0,0,0,0)', 
             font=dict(size=16, color="#0F172A"),
-            xaxis=dict(title_font=dict(size=18), tickfont=dict(size=15)),
-            yaxis=dict(title_font=dict(size=18), tickfont=dict(size=15)),
+            xaxis=dict(title_font=dict(size=14), tickfont=dict(size=12)),
+            yaxis=dict(title_font=dict(size=14), tickfont=dict(size=12)),
             coloraxis_showscale=False
         )
         st.plotly_chart(fig_region, use_container_width=True)
@@ -264,12 +264,12 @@ elif page == "Customer & Product Analytics":
         )
 
         fig_cat.update_layout(
-            font=dict(size=16, color="#0F172A"),
-            legend=dict(font=dict(size=15))
+            font=dict(size=13, color="#0F172A"),
+            legend=dict(font=dict(size=11))
         )
 
         fig_cat.update_traces(
-            textfont_size=16,
+            textfont_size=11,
             textinfo="percent+label",
             pull=[0.08, 0, 0, 0]
         )
@@ -314,7 +314,7 @@ elif page == "Customer & Product Analytics":
         yaxis={'categoryorder':'total ascending'},
         plot_bgcolor='rgba(0,0,0,0)',
         paper_bgcolor='rgba(0,0,0,0)',
-        font=dict(size=16, color="#0F172A"),
+        font=dict(size=13, color="#0F172A"),
         coloraxis_showscale=False
     )
 
@@ -422,18 +422,18 @@ elif page == "Customer & Product Analytics":
 
     fig_seg.update_traces(
         textinfo="percent+label",
-        textfont_size=16,
+        textfont_size=13,
         pull=[0.12, 0, 0]
     )
 
     fig_seg.update_traces(
-        textfont_size=16,
+        textfont_size=11,
         textinfo="percent+label"
     )
 
     fig_seg.update_layout(
         font=dict(
-            size=16,
+            size=13,
             color="#0F172A"
         )
     )
@@ -502,14 +502,14 @@ elif page == "Predictive ML Engine":
     )
     fig_pred.update_traces(
         marker_color='#8B1E3F',
-        textfont_size=16
+        textfont_size=11
     )
     fig_pred.update_layout(
         plot_bgcolor='rgba(0,0,0,0)', 
         paper_bgcolor='rgba(0,0,0,0)', 
         font=dict(size=16, color="#0F172A"),
-        xaxis=dict(title_font=dict(size=18), tickfont=dict(size=15)),
-        yaxis=dict(title_font=dict(size=18), tickfont=dict(size=15))
+        xaxis=dict(title_font=dict(size=14), tickfont=dict(size=12)),
+        yaxis=dict(title_font=dict(size=14), tickfont=dict(size=12))
     )
     st.plotly_chart(fig_pred, use_container_width=True)
     
@@ -596,9 +596,9 @@ elif page == "Predictive ML Engine":
         margin=dict(t=20, b=20, l=10, r=10), 
         plot_bgcolor='rgba(0,0,0,0)', 
         paper_bgcolor='rgba(0,0,0,0)', 
-        font=dict(size=16, color="#0F172A"),
-        xaxis=dict(tickfont=dict(size=16)),
-        yaxis=dict(tickfont=dict(size=15))
+        font=dict(size=13, color="#0F172A"),
+        xaxis=dict(tickfont=dict(size=12)),
+        yaxis=dict(tickfont=dict(size=12))
     )
     st.plotly_chart(fig_comp, use_container_width=True)
     
