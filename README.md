@@ -13,6 +13,25 @@ The application was developed as an interactive web dashboard using Streamlit an
 
 ---
 
+## Live Demo
+
+🔗 https://adventureworks-crm-dashboard.streamlit.app
+
+---
+
+## Dashboard Preview
+
+### Executive Overview
+![Executive Overview](images/executive-overview.png)
+
+### Customer & Product Analytics
+![Customer & Product Analytics](images/customer-product-analytics.png)
+
+### Predictive ML Engine
+![Predictive ML Engine](images/predictive-ml-engine.png)
+
+---
+
 ## Tools Used
 - Python
 - Pandas
