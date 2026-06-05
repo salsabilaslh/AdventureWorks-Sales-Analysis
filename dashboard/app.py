@@ -109,12 +109,12 @@ div[data-testid="stRadio"] label {
 # =========================
 @st.cache_data
 def load_data():
-    pd.read_csv("../data/clean_adventureworks.zip")
+    pd.read_csv("../data/clean_adventureworks.csv")
     df['OrderDateKey'] = pd.to_datetime(df['OrderDateKey'])
     df['YearMonth'] = df['OrderDateKey'].dt.to_period('M').astype(str)
     
     try:
-        pd.read_csv("../data/sales_prediction.csv")
+        pred_df = pd.read_csv("../data/sales_prediction.csv")
     except:
         pred_df = pd.DataFrame({
             'Year': [2024, 2025, 2026],
@@ -473,8 +473,8 @@ elif page == "Customer & Product Analytics":
         st.info("The majority of customers are low-value customers. Customer acquisition and engagement strategies are recommended.")
 
     st.markdown(" ")
-
-    with open("../data/clean_adventureworks.zip", "rb") as file:
+    
+    with open("../data/clean_adventureworks.csv", "rb") as file:
         st.download_button(
             label="Export Structured Dataset",
             data=file,
