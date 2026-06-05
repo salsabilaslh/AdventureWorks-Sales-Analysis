@@ -125,6 +125,9 @@ def load_data():
     
 df, prediction_df = load_data()
 
+st.write(df.head())
+st.write(df.columns.tolist())
+
 # =========================
 # SIDEBAR NAVIGATION & FILTERS
 # =========================
