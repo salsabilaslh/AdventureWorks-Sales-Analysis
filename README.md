@@ -98,7 +98,7 @@ Features include:
 
 ---
 
-#### Machine Learning Models
+### Machine Learning Models
 
 #### Random Forest Classification
 Used to estimate customer purchasing likelihood based on customer profile attributes.
