@@ -1,6 +1,6 @@
 # AdventureWorks Advanced CRM & Sales Forecasting System
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://adventureworks-crm-dashboard.streamlit.app)
+[![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-Streamlit-red?logo=streamlit)](https://adventureworks-crm-dashboard.streamlit.app)
 
 Enterprise Business Intelligence & Predictive Machine Learning Framework
 
