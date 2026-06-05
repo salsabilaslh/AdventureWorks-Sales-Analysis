@@ -1,5 +1,9 @@
 # AdventureWorks Advanced CRM & Sales Forecasting System
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://adventureworks-crm-dashboard.streamlit.app)
+
+Enterprise Business Intelligence & Predictive Machine Learning Framework
+
 ## Project Overview
 This project was developed as the final project for the Application Programming course. The system integrates Business Intelligence (BI), Customer Relationship Management (CRM), and Machine Learning techniques to analyze sales performance, customer behavior, and future revenue opportunities using the AdventureWorks Sales dataset.
 
