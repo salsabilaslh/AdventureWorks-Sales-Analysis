@@ -19,19 +19,6 @@ Explore the deployed Streamlit application and interact with all dashboard modul
 
 ---
 
-## Dashboard Preview
-
-### Executive Overview
-![Executive Overview](images/executive-overview.png)
-
-### Customer & Product Analytics
-![Customer & Product Analytics](images/customer-product-analytics.png)
-
-### Predictive ML Engine
-![Predictive ML Engine](images/predictive-ml-engine.png)
-
----
-
 ## Tools Used
 - Python
 - Pandas
@@ -168,6 +155,19 @@ The system can identify:
 This project demonstrates how modern Business Intelligence and Machine Learning techniques can be integrated into an interactive web application to support data-driven decision-making.
 
 The final system provides analytical reporting, customer segmentation, predictive forecasting, and strategic business recommendations within a single platform.
+
+---
+
+## Dashboard Preview
+
+### Executive Overview
+![Executive Overview](images/executive-overview.png)
+
+### Customer & Product Analytics
+![Customer & Product Analytics](images/customer-product-analytics.png)
+
+### Predictive ML Engine
+![Predictive ML Engine](images/predictive-ml-engine.png)
 
 ---
 
